@@ -295,7 +295,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/goit-markup-hw-08-main/images/background-pic.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: url(../images/background-pic.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(47, 48, 58, 0.4);
@@ -338,24 +338,24 @@
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url("/goit-markup-hw-08-main/images/background-pic@2x.jpg");
+    background-image: url("../images/background-pic@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .container--page-header {
-    background-image: url(/goit-markup-hw-08-main/images/background-pic-tablet.jpg);
+    background-image: url(../images/background-pic-tablet.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url("/goit-markup-hw-08-main/images/background-pic-tablet@2x.jpg");
+    background-image: url("../images/background-pic-tablet@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .container--page-header {
     max-width: 1600px;
     min-height: 600px;
-    background-image: url(/goit-markup-hw-08-main/images/background-photo.jpg);
+    background-image: url(../images/background-photo.jpg);
   }
   .page-headline {
     font-size: 44px;
@@ -368,7 +368,7 @@
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url("/goit-markup-hw-08-main/images/background-photo@2x.jpg");
+    background-image: url("../images/background-photo@2x.jpg");
   }
 }
 .text-section {
