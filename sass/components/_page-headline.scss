@@ -51,19 +51,19 @@ $primaryFont: "Roboto";
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url('/goit-markup-hw-08-main/images/background-pic@2x.jpg');
+    background-image: url('../images/background-pic@2x.jpg');
   }
 }
  @media screen and (min-width:768px) {
   .container--page-header {
-    background-image: url(/goit-markup-hw-08-main/images/background-pic-tablet.jpg);
+    background-image: url(../images/background-pic-tablet.jpg);
   }
   @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url('/goit-markup-hw-08-main/images/background-pic-tablet@2x.jpg');
+    background-image: url('../images/background-pic-tablet@2x.jpg');
   }
  }
 }
@@ -71,7 +71,7 @@ $primaryFont: "Roboto";
   .container--page-header {
     max-width: 1600px;
     min-height: 600px;
-    background-image: url(/goit-markup-hw-08-main/images/background-photo.jpg);
+    background-image: url(../images/background-photo.jpg);
   }
   .page-headline {
   font-size: 44px;
@@ -86,7 +86,7 @@ $primaryFont: "Roboto";
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .container--page-header {
-    background-image: url('/goit-markup-hw-08-main/images/background-photo@2x.jpg');
+    background-image: url('../images/background-photo@2x.jpg');
   }
  }
 }
