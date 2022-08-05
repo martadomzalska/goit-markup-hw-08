@@ -38,6 +38,9 @@
     margin-top: 0;
     margin-bottom: 302px;
   }
+  .menu-container__list-item {
+    margin-bottom: 32px;
+  }
   .menu-container__link {
     font-family: "Roboto";
     font-style: normal;
@@ -46,7 +49,7 @@
     line-height: 47px;
     letter-spacing: 0.02em;
     list-style: none;
-
+    text-decoration: none;
     color: #212121;
     margin-bottom: 32px;
 
